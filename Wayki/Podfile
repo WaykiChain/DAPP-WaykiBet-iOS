@@ -1,0 +1,19 @@
+platform :ios, '10.0'
+use_frameworks!
+
+target 'Wayki' do
+    pod 'Alamofire', '~> 4.7'
+    pod 'Kingfisher', '~> 4.0'
+    pod 'SVProgressHUD'
+    
+    # 友盟
+    pod 'UMCCommon'
+    pod 'UMCAnalytics'
+    pod 'UMCSecurityPlugins'
+    pod 'UMCPush' # 友盟推送
+
+    # 蒲公英
+    pod 'Pgyer'
+    pod 'PgyUpdate'
+
+end

@@ -1,0 +1,836 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A855308520CA6B6C00E3D62F /* libcoinapi.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A855308420CA6B6C00E3D62F /* libcoinapi.a */; };
+		BF0DED0E20CBA15C003B84F4 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = BF0DED0D20CBA15C003B84F4 /* libsqlite3.tbd */; };
+		BF1BC1C220E26AAD0062A667 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = BF1BC1BB20E26AAC0062A667 /* Reachability.m */; };
+		BF1BC1C720E26AF60062A667 /* CreateAccountC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF1BC1C620E26AF60062A667 /* CreateAccountC.swift */; };
+		BF1BC1C920E26B060062A667 /* ImportAccountC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF1BC1C820E26B060062A667 /* ImportAccountC.swift */; };
+		BF1BC1CB20E26B190062A667 /* TransferC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF1BC1CA20E26B190062A667 /* TransferC.swift */; };
+		BF1BC1CD20E26B340062A667 /* BetC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF1BC1CC20E26B340062A667 /* BetC.swift */; };
+		BF1BC1D020E26F6A0062A667 /* ActivateC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF1BC1CF20E26F6A0062A667 /* ActivateC.swift */; };
+		BF1BC1D220E273CA0062A667 /* AssertC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF1BC1D120E273CA0062A667 /* AssertC.swift */; };
+		BF36566920E31CE90024D619 /* CenterC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF36566820E31CE90024D619 /* CenterC.swift */; };
+		BF36566B20E33AE90024D619 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF36566A20E33AE90024D619 /* Assets.xcassets */; };
+		BF57F62920DDE9D50000348F /* JsonRpcManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF57F62820DDE9D50000348F /* JsonRpcManager.swift */; };
+		BFC7427520CA58ED008C3FF2 /* LHHttpsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC7416220CA58ED008C3FF2 /* LHHttpsManager.swift */; };
+		BFC7427620CA58ED008C3FF2 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC7416320CA58ED008C3FF2 /* Constant.swift */; };
+		BFC7427820CA58ED008C3FF2 /* AccountManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC7416520CA58ED008C3FF2 /* AccountManager.swift */; };
+		BFC7427A20CA58ED008C3FF2 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC7416720CA58ED008C3FF2 /* Extensions.swift */; };
+		BFC7427B20CA58ED008C3FF2 /* InstanceTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC7416820CA58ED008C3FF2 /* InstanceTools.swift */; };
+		BFC7427C20CA58ED008C3FF2 /* Tools.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC7416920CA58ED008C3FF2 /* Tools.swift */; };
+		BFC7427D20CA58ED008C3FF2 /* LHRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC7416A20CA58ED008C3FF2 /* LHRequest.swift */; };
+		BFC7427E20CA58ED008C3FF2 /* Account.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC7416B20CA58ED008C3FF2 /* Account.swift */; };
+		BFC7427F20CA58ED008C3FF2 /* ConfigureManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC7416D20CA58ED008C3FF2 /* ConfigureManager.swift */; };
+		BFC7428220CA58ED008C3FF2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC7417020CA58ED008C3FF2 /* AppDelegate.swift */; };
+		BFC7428520CA58ED008C3FF2 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = BFC7417420CA58ED008C3FF2 /* Localizable.strings */; };
+		BFC7428620CA58ED008C3FF2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BFC7417620CA58ED008C3FF2 /* InfoPlist.strings */; };
+		BFC7428820CA58ED008C3FF2 /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC7418020CA58ED008C3FF2 /* SwiftyJSON.swift */; };
+		BFC7429C20CA58ED008C3FF2 /* GTMBase64.m in Sources */ = {isa = PBXBuildFile; fileRef = BFC7419C20CA58ED008C3FF2 /* GTMBase64.m */; };
+		BFC7429D20CA58ED008C3FF2 /* SecurityUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = BFC7419D20CA58ED008C3FF2 /* SecurityUtil.m */; };
+		BFC7429E20CA58ED008C3FF2 /* NSData+AES.m in Sources */ = {isa = PBXBuildFile; fileRef = BFC7419E20CA58ED008C3FF2 /* NSData+AES.m */; };
+		BFC742B520CA58ED008C3FF2 /* Constants.m in Sources */ = {isa = PBXBuildFile; fileRef = BFC741D520CA58ED008C3FF2 /* Constants.m */; };
+		BFC742B620CA58ED008C3FF2 /* Bridge.mm in Sources */ = {isa = PBXBuildFile; fileRef = BFC741EB20CA58ED008C3FF2 /* Bridge.mm */; };
+		BFC742B720CA58ED008C3FF2 /* LotteryConst.m in Sources */ = {isa = PBXBuildFile; fileRef = BFC741F320CA58ED008C3FF2 /* LotteryConst.m */; };
+		BFC742BB20CA58ED008C3FF2 /* CLMyTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC741FC20CA58ED008C3FF2 /* CLMyTextView.swift */; };
+		BFC742BC20CA58ED008C3FF2 /* ZHDropDownMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC741FD20CA58ED008C3FF2 /* ZHDropDownMenu.swift */; };
+		BFC742C520CA58ED008C3FF2 /* NSString+Hash.m in Sources */ = {isa = PBXBuildFile; fileRef = BFC7420E20CA58ED008C3FF2 /* NSString+Hash.m */; };
+		BFC742C620CA58ED008C3FF2 /* UIView+LayoutMethods.m in Sources */ = {isa = PBXBuildFile; fileRef = BFC7421020CA58ED008C3FF2 /* UIView+LayoutMethods.m */; };
+		BFC742D220CA58ED008C3FF2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFC7422520CA58ED008C3FF2 /* LaunchScreen.storyboard */; };
+		BFC742D520CA58ED008C3FF2 /* AppFootballM.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC7422A20CA58ED008C3FF2 /* AppFootballM.swift */; };
+		BFC7430820CA58ED008C3FF2 /* NavBaseVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC7425F20CA58ED008C3FF2 /* NavBaseVC.swift */; };
+		BFC7431720CA58ED008C3FF2 /* Foundations.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC7427120CA58ED008C3FF2 /* Foundations.swift */; };
+		FB1335ABD7F433B162615C6A /* Pods_Wayki.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB710087190CE129C81D5D40 /* Pods_Wayki.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		196817736E240336A2D92A7D /* Pods-Wayki.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Wayki.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Wayki/Pods-Wayki.debug.xcconfig"; sourceTree = "<group>"; };
+		91375D9F2844CF444D37B369 /* Pods-Wayki.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Wayki.release.xcconfig"; path = "Pods/Target Support Files/Pods-Wayki/Pods-Wayki.release.xcconfig"; sourceTree = "<group>"; };
+		A855308420CA6B6C00E3D62F /* libcoinapi.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libcoinapi.a; sourceTree = "<group>"; };
+		BB710087190CE129C81D5D40 /* Pods_Wayki.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Wayki.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF0DED0D20CBA15C003B84F4 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		BF1BC1BA20E26AAC0062A667 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		BF1BC1BB20E26AAC0062A667 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		BF1BC1C620E26AF60062A667 /* CreateAccountC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAccountC.swift; sourceTree = "<group>"; };
+		BF1BC1C820E26B060062A667 /* ImportAccountC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImportAccountC.swift; sourceTree = "<group>"; };
+		BF1BC1CA20E26B190062A667 /* TransferC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransferC.swift; sourceTree = "<group>"; };
+		BF1BC1CC20E26B340062A667 /* BetC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BetC.swift; sourceTree = "<group>"; };
+		BF1BC1CF20E26F6A0062A667 /* ActivateC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivateC.swift; sourceTree = "<group>"; };
+		BF1BC1D120E273CA0062A667 /* AssertC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssertC.swift; sourceTree = "<group>"; };
+		BF36566820E31CE90024D619 /* CenterC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CenterC.swift; sourceTree = "<group>"; };
+		BF36566A20E33AE90024D619 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BF57F62820DDE9D50000348F /* JsonRpcManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JsonRpcManager.swift; sourceTree = "<group>"; };
+		BFC7414B20CA5821008C3FF2 /* Wayki.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Wayki.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFC7416220CA58ED008C3FF2 /* LHHttpsManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LHHttpsManager.swift; sourceTree = "<group>"; };
+		BFC7416320CA58ED008C3FF2 /* Constant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		BFC7416520CA58ED008C3FF2 /* AccountManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccountManager.swift; sourceTree = "<group>"; };
+		BFC7416720CA58ED008C3FF2 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		BFC7416820CA58ED008C3FF2 /* InstanceTools.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InstanceTools.swift; sourceTree = "<group>"; };
+		BFC7416920CA58ED008C3FF2 /* Tools.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tools.swift; sourceTree = "<group>"; };
+		BFC7416A20CA58ED008C3FF2 /* LHRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LHRequest.swift; sourceTree = "<group>"; };
+		BFC7416B20CA58ED008C3FF2 /* Account.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Account.swift; sourceTree = "<group>"; };
+		BFC7416D20CA58ED008C3FF2 /* ConfigureManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConfigureManager.swift; sourceTree = "<group>"; };
+		BFC7417020CA58ED008C3FF2 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BFC7417820CA58ED008C3FF2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		BFC7417920CA58ED008C3FF2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BFC7417A20CA58ED008C3FF2 /* Wayki-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Wayki-Bridging-Header.h"; sourceTree = "<group>"; };
+		BFC7417D20CA58ED008C3FF2 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BFC7418020CA58ED008C3FF2 /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyJSON.swift; sourceTree = "<group>"; };
+		BFC7419820CA58ED008C3FF2 /* NSData+AES.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+AES.h"; sourceTree = "<group>"; };
+		BFC7419A20CA58ED008C3FF2 /* GTMBase64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMBase64.h; sourceTree = "<group>"; };
+		BFC7419B20CA58ED008C3FF2 /* GTMDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMDefines.h; sourceTree = "<group>"; };
+		BFC7419C20CA58ED008C3FF2 /* GTMBase64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTMBase64.m; sourceTree = "<group>"; };
+		BFC7419D20CA58ED008C3FF2 /* SecurityUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecurityUtil.m; sourceTree = "<group>"; };
+		BFC7419E20CA58ED008C3FF2 /* NSData+AES.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+AES.m"; sourceTree = "<group>"; };
+		BFC7419F20CA58ED008C3FF2 /* SecurityUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecurityUtil.h; sourceTree = "<group>"; };
+		BFC741D520CA58ED008C3FF2 /* Constants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Constants.m; sourceTree = "<group>"; };
+		BFC741D720CA58ED008C3FF2 /* CAEncryptedData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CAEncryptedData.h; sourceTree = "<group>"; };
+		BFC741D820CA58ED008C3FF2 /* CANetParams.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CANetParams.h; sourceTree = "<group>"; };
+		BFC741D920CA58ED008C3FF2 /* Bridge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bridge.h; sourceTree = "<group>"; };
+		BFC741DA20CA58ED008C3FF2 /* CABtSeed.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CABtSeed.h; sourceTree = "<group>"; };
+		BFC741DB20CA58ED008C3FF2 /* Netparams.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Netparams.hpp; sourceTree = "<group>"; };
+		BFC741DC20CA58ED008C3FF2 /* CAKeyPath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CAKeyPath.h; sourceTree = "<group>"; };
+		BFC741DD20CA58ED008C3FF2 /* SmcCreateSignTransactionParams.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = SmcCreateSignTransactionParams.hpp; sourceTree = "<group>"; };
+		BFC741DE20CA58ED008C3FF2 /* CASmcRegisterAccountTxParams.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CASmcRegisterAccountTxParams.h; sourceTree = "<group>"; };
+		BFC741DF20CA58ED008C3FF2 /* CreateSignTransactionParams.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = CreateSignTransactionParams.hpp; sourceTree = "<group>"; };
+		BFC741E020CA58ED008C3FF2 /* BtSeed.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = BtSeed.hpp; sourceTree = "<group>"; };
+		BFC741E120CA58ED008C3FF2 /* BtWallet.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = BtWallet.hpp; sourceTree = "<group>"; };
+		BFC741E220CA58ED008C3FF2 /* TransactionSignParams.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TransactionSignParams.h; sourceTree = "<group>"; };
+		BFC741E320CA58ED008C3FF2 /* KeyPath.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = KeyPath.hpp; sourceTree = "<group>"; };
+		BFC741E420CA58ED008C3FF2 /* uint256.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = uint256.h; sourceTree = "<group>"; };
+		BFC741E520CA58ED008C3FF2 /* CoinApi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoinApi.h; sourceTree = "<group>"; };
+		BFC741E620CA58ED008C3FF2 /* smcutil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = smcutil.h; sourceTree = "<group>"; };
+		BFC741E720CA58ED008C3FF2 /* CASmcCommonTxParams.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CASmcCommonTxParams.h; sourceTree = "<group>"; };
+		BFC741E820CA58ED008C3FF2 /* CABtWallet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CABtWallet.h; sourceTree = "<group>"; };
+		BFC741E920CA58ED008C3FF2 /* EncryptedData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EncryptedData.h; sourceTree = "<group>"; };
+		BFC741EA20CA58ED008C3FF2 /* KeyCrypterScrypt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeyCrypterScrypt.h; sourceTree = "<group>"; };
+		BFC741EB20CA58ED008C3FF2 /* Bridge.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = Bridge.mm; sourceTree = "<group>"; };
+		BFC741EC20CA58ED008C3FF2 /* SecureRandom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecureRandom.h; sourceTree = "<group>"; };
+		BFC741ED20CA58ED008C3FF2 /* SmcBaseTransactionSignParams.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SmcBaseTransactionSignParams.h; sourceTree = "<group>"; };
+		BFC741EE20CA58ED008C3FF2 /* CABetItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CABetItem.h; sourceTree = "<group>"; };
+		BFC741EF20CA58ED008C3FF2 /* CASmcContractTxParams.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CASmcContractTxParams.h; sourceTree = "<group>"; };
+		BFC741F020CA58ED008C3FF2 /* CoinType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoinType.h; sourceTree = "<group>"; };
+		BFC741F120CA58ED008C3FF2 /* LotteryConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LotteryConst.h; sourceTree = "<group>"; };
+		BFC741F220CA58ED008C3FF2 /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		BFC741F320CA58ED008C3FF2 /* LotteryConst.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LotteryConst.m; sourceTree = "<group>"; };
+		BFC741FC20CA58ED008C3FF2 /* CLMyTextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CLMyTextView.swift; sourceTree = "<group>"; };
+		BFC741FD20CA58ED008C3FF2 /* ZHDropDownMenu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZHDropDownMenu.swift; sourceTree = "<group>"; };
+		BFC7420E20CA58ED008C3FF2 /* NSString+Hash.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Hash.m"; sourceTree = "<group>"; };
+		BFC7421020CA58ED008C3FF2 /* UIView+LayoutMethods.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+LayoutMethods.m"; sourceTree = "<group>"; };
+		BFC7421320CA58ED008C3FF2 /* NSString+Hash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Hash.h"; sourceTree = "<group>"; };
+		BFC7421520CA58ED008C3FF2 /* UIView+LayoutMethods.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+LayoutMethods.h"; sourceTree = "<group>"; };
+		BFC7422620CA58ED008C3FF2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BFC7422A20CA58ED008C3FF2 /* AppFootballM.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppFootballM.swift; sourceTree = "<group>"; };
+		BFC7425F20CA58ED008C3FF2 /* NavBaseVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavBaseVC.swift; sourceTree = "<group>"; };
+		BFC7427120CA58ED008C3FF2 /* Foundations.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Foundations.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BFC7414820CA5821008C3FF2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF0DED0E20CBA15C003B84F4 /* libsqlite3.tbd in Frameworks */,
+				FB1335ABD7F433B162615C6A /* Pods_Wayki.framework in Frameworks */,
+				A855308520CA6B6C00E3D62F /* libcoinapi.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		01D919AE96883B26B8114B0B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				196817736E240336A2D92A7D /* Pods-Wayki.debug.xcconfig */,
+				91375D9F2844CF444D37B369 /* Pods-Wayki.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		16BAA7CFDE043B7DAB82B4F7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BF0DED0D20CBA15C003B84F4 /* libsqlite3.tbd */,
+				BB710087190CE129C81D5D40 /* Pods_Wayki.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BFA9BA0320CE21A8002A2236 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				BFC7416520CA58ED008C3FF2 /* AccountManager.swift */,
+				BFC7416220CA58ED008C3FF2 /* LHHttpsManager.swift */,
+				BF57F62820DDE9D50000348F /* JsonRpcManager.swift */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		BFC7414220CA5821008C3FF2 = {
+			isa = PBXGroup;
+			children = (
+				BFC7416020CA58ED008C3FF2 /* Wayki */,
+				BFC7414C20CA5821008C3FF2 /* Products */,
+				01D919AE96883B26B8114B0B /* Pods */,
+				16BAA7CFDE043B7DAB82B4F7 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		BFC7414C20CA5821008C3FF2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BFC7414B20CA5821008C3FF2 /* Wayki.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BFC7416020CA58ED008C3FF2 /* Wayki */ = {
+			isa = PBXGroup;
+			children = (
+				BFC7426E20CA58ED008C3FF2 /* Base */,
+				BFC7416C20CA58ED008C3FF2 /* App */,
+				BFC7417320CA58ED008C3FF2 /* Config */,
+				BFC7417E20CA58ED008C3FF2 /* Library */,
+				BFC7421F20CA58ED008C3FF2 /* Resource */,
+				BFC7416120CA58ED008C3FF2 /* Tools */,
+			);
+			path = Wayki;
+			sourceTree = "<group>";
+		};
+		BFC7416120CA58ED008C3FF2 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				BFC7416320CA58ED008C3FF2 /* Constant.swift */,
+				BFC7416720CA58ED008C3FF2 /* Extensions.swift */,
+				BFC7416820CA58ED008C3FF2 /* InstanceTools.swift */,
+				BFC7416920CA58ED008C3FF2 /* Tools.swift */,
+				BFC7416A20CA58ED008C3FF2 /* LHRequest.swift */,
+				BFC7416B20CA58ED008C3FF2 /* Account.swift */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		BFC7416C20CA58ED008C3FF2 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				BFC7417020CA58ED008C3FF2 /* AppDelegate.swift */,
+				BFC7416D20CA58ED008C3FF2 /* ConfigureManager.swift */,
+				BF36566820E31CE90024D619 /* CenterC.swift */,
+				BFA9BA0320CE21A8002A2236 /* Manager */,
+				BF1BC1C620E26AF60062A667 /* CreateAccountC.swift */,
+				BF1BC1C820E26B060062A667 /* ImportAccountC.swift */,
+				BF1BC1CA20E26B190062A667 /* TransferC.swift */,
+				BF1BC1CC20E26B340062A667 /* BetC.swift */,
+				BFC7422A20CA58ED008C3FF2 /* AppFootballM.swift */,
+				BF1BC1CF20E26F6A0062A667 /* ActivateC.swift */,
+				BF1BC1D120E273CA0062A667 /* AssertC.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		BFC7417320CA58ED008C3FF2 /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				BFC7417420CA58ED008C3FF2 /* Localizable.strings */,
+				BFC7417620CA58ED008C3FF2 /* InfoPlist.strings */,
+				BFC7417A20CA58ED008C3FF2 /* Wayki-Bridging-Header.h */,
+				BFC7417D20CA58ED008C3FF2 /* Info.plist */,
+			);
+			path = Config;
+			sourceTree = "<group>";
+		};
+		BFC7417E20CA58ED008C3FF2 /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				BFC7417F20CA58ED008C3FF2 /* SwiftyJSON */,
+				BFC7419720CA58ED008C3FF2 /* Security */,
+				BFC741D420CA58ED008C3FF2 /* wicc_lib */,
+				BFC7420D20CA58ED008C3FF2 /* Extensions */,
+			);
+			path = Library;
+			sourceTree = "<group>";
+		};
+		BFC7417F20CA58ED008C3FF2 /* SwiftyJSON */ = {
+			isa = PBXGroup;
+			children = (
+				BFC741FC20CA58ED008C3FF2 /* CLMyTextView.swift */,
+				BFC741FD20CA58ED008C3FF2 /* ZHDropDownMenu.swift */,
+				BFC7418020CA58ED008C3FF2 /* SwiftyJSON.swift */,
+			);
+			path = SwiftyJSON;
+			sourceTree = "<group>";
+		};
+		BFC7419720CA58ED008C3FF2 /* Security */ = {
+			isa = PBXGroup;
+			children = (
+				BFC7419820CA58ED008C3FF2 /* NSData+AES.h */,
+				BFC7419920CA58ED008C3FF2 /* GTMBase64 */,
+				BFC7419D20CA58ED008C3FF2 /* SecurityUtil.m */,
+				BFC7419E20CA58ED008C3FF2 /* NSData+AES.m */,
+				BFC7419F20CA58ED008C3FF2 /* SecurityUtil.h */,
+			);
+			path = Security;
+			sourceTree = "<group>";
+		};
+		BFC7419920CA58ED008C3FF2 /* GTMBase64 */ = {
+			isa = PBXGroup;
+			children = (
+				BFC7419A20CA58ED008C3FF2 /* GTMBase64.h */,
+				BFC7419B20CA58ED008C3FF2 /* GTMDefines.h */,
+				BFC7419C20CA58ED008C3FF2 /* GTMBase64.m */,
+			);
+			path = GTMBase64;
+			sourceTree = "<group>";
+		};
+		BFC741D420CA58ED008C3FF2 /* wicc_lib */ = {
+			isa = PBXGroup;
+			children = (
+				A855308420CA6B6C00E3D62F /* libcoinapi.a */,
+				BFC741D520CA58ED008C3FF2 /* Constants.m */,
+				BFC741D620CA58ED008C3FF2 /* oc */,
+				BFC741F120CA58ED008C3FF2 /* LotteryConst.h */,
+				BFC741F220CA58ED008C3FF2 /* Constants.h */,
+				BFC741F320CA58ED008C3FF2 /* LotteryConst.m */,
+			);
+			path = wicc_lib;
+			sourceTree = "<group>";
+		};
+		BFC741D620CA58ED008C3FF2 /* oc */ = {
+			isa = PBXGroup;
+			children = (
+				BFC741D720CA58ED008C3FF2 /* CAEncryptedData.h */,
+				BFC741D820CA58ED008C3FF2 /* CANetParams.h */,
+				BFC741D920CA58ED008C3FF2 /* Bridge.h */,
+				BFC741DA20CA58ED008C3FF2 /* CABtSeed.h */,
+				BFC741DB20CA58ED008C3FF2 /* Netparams.hpp */,
+				BFC741DC20CA58ED008C3FF2 /* CAKeyPath.h */,
+				BFC741DD20CA58ED008C3FF2 /* SmcCreateSignTransactionParams.hpp */,
+				BFC741DE20CA58ED008C3FF2 /* CASmcRegisterAccountTxParams.h */,
+				BFC741DF20CA58ED008C3FF2 /* CreateSignTransactionParams.hpp */,
+				BFC741E020CA58ED008C3FF2 /* BtSeed.hpp */,
+				BFC741E120CA58ED008C3FF2 /* BtWallet.hpp */,
+				BFC741E220CA58ED008C3FF2 /* TransactionSignParams.h */,
+				BFC741E320CA58ED008C3FF2 /* KeyPath.hpp */,
+				BFC741E420CA58ED008C3FF2 /* uint256.h */,
+				BFC741E520CA58ED008C3FF2 /* CoinApi.h */,
+				BFC741E620CA58ED008C3FF2 /* smcutil.h */,
+				BFC741E720CA58ED008C3FF2 /* CASmcCommonTxParams.h */,
+				BFC741E820CA58ED008C3FF2 /* CABtWallet.h */,
+				BFC741E920CA58ED008C3FF2 /* EncryptedData.h */,
+				BFC741EA20CA58ED008C3FF2 /* KeyCrypterScrypt.h */,
+				BFC741EB20CA58ED008C3FF2 /* Bridge.mm */,
+				BFC741EC20CA58ED008C3FF2 /* SecureRandom.h */,
+				BFC741ED20CA58ED008C3FF2 /* SmcBaseTransactionSignParams.h */,
+				BFC741EE20CA58ED008C3FF2 /* CABetItem.h */,
+				BFC741EF20CA58ED008C3FF2 /* CASmcContractTxParams.h */,
+				BFC741F020CA58ED008C3FF2 /* CoinType.h */,
+			);
+			path = oc;
+			sourceTree = "<group>";
+		};
+		BFC7420D20CA58ED008C3FF2 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				BF1BC1BA20E26AAC0062A667 /* Reachability.h */,
+				BF1BC1BB20E26AAC0062A667 /* Reachability.m */,
+				BFC7420E20CA58ED008C3FF2 /* NSString+Hash.m */,
+				BFC7421020CA58ED008C3FF2 /* UIView+LayoutMethods.m */,
+				BFC7421320CA58ED008C3FF2 /* NSString+Hash.h */,
+				BFC7421520CA58ED008C3FF2 /* UIView+LayoutMethods.h */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		BFC7421F20CA58ED008C3FF2 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				BF36566A20E33AE90024D619 /* Assets.xcassets */,
+				BFC7422520CA58ED008C3FF2 /* LaunchScreen.storyboard */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		BFC7426E20CA58ED008C3FF2 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				BFC7427120CA58ED008C3FF2 /* Foundations.swift */,
+				BFC7425F20CA58ED008C3FF2 /* NavBaseVC.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BFC7414A20CA5821008C3FF2 /* Wayki */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BFC7415D20CA5822008C3FF2 /* Build configuration list for PBXNativeTarget "Wayki" */;
+			buildPhases = (
+				601439FD457841908C659DAF /* [CP] Check Pods Manifest.lock */,
+				BFC7414720CA5821008C3FF2 /* Sources */,
+				BFC7414820CA5821008C3FF2 /* Frameworks */,
+				BFC7414920CA5821008C3FF2 /* Resources */,
+				48CE470A3759AF68D570FFC4 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Wayki;
+			productName = Wayki;
+			productReference = BFC7414B20CA5821008C3FF2 /* Wayki.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFC7414320CA5821008C3FF2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = wk;
+				TargetAttributes = {
+					BFC7414A20CA5821008C3FF2 = {
+						CreatedOnToolsVersion = 9.3.1;
+					};
+				};
+			};
+			buildConfigurationList = BFC7414620CA5821008C3FF2 /* Build configuration list for PBXProject "Wayki" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BFC7414220CA5821008C3FF2;
+			productRefGroup = BFC7414C20CA5821008C3FF2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BFC7414A20CA5821008C3FF2 /* Wayki */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BFC7414920CA5821008C3FF2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFC7428520CA58ED008C3FF2 /* Localizable.strings in Resources */,
+				BFC7428620CA58ED008C3FF2 /* InfoPlist.strings in Resources */,
+				BF36566B20E33AE90024D619 /* Assets.xcassets in Resources */,
+				BFC742D220CA58ED008C3FF2 /* LaunchScreen.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		48CE470A3759AF68D570FFC4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Wayki/Pods-Wayki-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
+				"${BUILT_PRODUCTS_DIR}/SVProgressHUD/SVProgressHUD.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SVProgressHUD.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Wayki/Pods-Wayki-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		601439FD457841908C659DAF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Wayki-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BFC7414720CA5821008C3FF2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFC742C520CA58ED008C3FF2 /* NSString+Hash.m in Sources */,
+				BFC742BB20CA58ED008C3FF2 /* CLMyTextView.swift in Sources */,
+				BF1BC1C220E26AAD0062A667 /* Reachability.m in Sources */,
+				BF1BC1D220E273CA0062A667 /* AssertC.swift in Sources */,
+				BFC7429E20CA58ED008C3FF2 /* NSData+AES.m in Sources */,
+				BF57F62920DDE9D50000348F /* JsonRpcManager.swift in Sources */,
+				BFC7427B20CA58ED008C3FF2 /* InstanceTools.swift in Sources */,
+				BF1BC1CB20E26B190062A667 /* TransferC.swift in Sources */,
+				BFC7427A20CA58ED008C3FF2 /* Extensions.swift in Sources */,
+				BFC7430820CA58ED008C3FF2 /* NavBaseVC.swift in Sources */,
+				BFC7428220CA58ED008C3FF2 /* AppDelegate.swift in Sources */,
+				BFC742B520CA58ED008C3FF2 /* Constants.m in Sources */,
+				BF1BC1C920E26B060062A667 /* ImportAccountC.swift in Sources */,
+				BF36566920E31CE90024D619 /* CenterC.swift in Sources */,
+				BFC7427D20CA58ED008C3FF2 /* LHRequest.swift in Sources */,
+				BF1BC1D020E26F6A0062A667 /* ActivateC.swift in Sources */,
+				BFC742B720CA58ED008C3FF2 /* LotteryConst.m in Sources */,
+				BF1BC1CD20E26B340062A667 /* BetC.swift in Sources */,
+				BFC7427E20CA58ED008C3FF2 /* Account.swift in Sources */,
+				BFC7427F20CA58ED008C3FF2 /* ConfigureManager.swift in Sources */,
+				BFC7429D20CA58ED008C3FF2 /* SecurityUtil.m in Sources */,
+				BFC7427520CA58ED008C3FF2 /* LHHttpsManager.swift in Sources */,
+				BF1BC1C720E26AF60062A667 /* CreateAccountC.swift in Sources */,
+				BFC7427620CA58ED008C3FF2 /* Constant.swift in Sources */,
+				BFC7431720CA58ED008C3FF2 /* Foundations.swift in Sources */,
+				BFC7427820CA58ED008C3FF2 /* AccountManager.swift in Sources */,
+				BFC742BC20CA58ED008C3FF2 /* ZHDropDownMenu.swift in Sources */,
+				BFC7429C20CA58ED008C3FF2 /* GTMBase64.m in Sources */,
+				BFC742D520CA58ED008C3FF2 /* AppFootballM.swift in Sources */,
+				BFC742C620CA58ED008C3FF2 /* UIView+LayoutMethods.m in Sources */,
+				BFC7428820CA58ED008C3FF2 /* SwiftyJSON.swift in Sources */,
+				BFC7427C20CA58ED008C3FF2 /* Tools.swift in Sources */,
+				BFC742B620CA58ED008C3FF2 /* Bridge.mm in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BFC7417420CA58ED008C3FF2 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BFC7417820CA58ED008C3FF2 /* en */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		BFC7417620CA58ED008C3FF2 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BFC7417920CA58ED008C3FF2 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		BFC7422520CA58ED008C3FF2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BFC7422620CA58ED008C3FF2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BFC7415B20CA5822008C3FF2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BFC7415C20CA5822008C3FF2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BFC7415E20CA5822008C3FF2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 196817736E240336A2D92A7D /* Pods-Wayki.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon_new;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage_red;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2K7YVK8DJK;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Wayki/Library",
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/Wayki/Config/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Wayki/Library/wicc_lib",
+					"$(PROJECT_DIR)/Wayki/Library/HeziSDK_2.6.3",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-l\"sqlite3\"",
+					"-l\"z\"",
+					"-framework",
+					"\"Alamofire\"",
+					"-framework",
+					"\"AudioToolbox\"",
+					"-framework",
+					"\"AvFoundation\"",
+					"-framework",
+					"\"CoreMotion\"",
+					"-framework",
+					"\"CoreTelephony\"",
+					"-framework",
+					"\"Kingfisher\"",
+					"-framework",
+					"\"OpenGLES\"",
+					"-framework",
+					"\"PgySDK\"",
+					"-framework",
+					"\"PgyUpdate\"",
+					"-framework",
+					"\"SVProgressHUD\"",
+					"-framework",
+					"\"SecurityEnvSDK\"",
+					"-framework",
+					"\"SystemConfiguration\"",
+					"-framework",
+					"\"UMAnalytics\"",
+					"-framework",
+					"\"UMCommon\"",
+					"-framework",
+					"\"UMPush\"",
+					"-framework",
+					"\"UTDID\"",
+					"-framework",
+					"\"UserNotifications\"",
+					"-w",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.waykichain.waykichain;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Wayki/Config/Wayki-Bridging-Header.h";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		BFC7415F20CA5822008C3FF2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 91375D9F2844CF444D37B369 /* Pods-Wayki.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon_new;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage_red;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2K7YVK8DJK;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Wayki/Library",
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/Wayki/Config/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Wayki/Library/wicc_lib",
+					"$(PROJECT_DIR)/Wayki/Library/HeziSDK_2.6.3",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-l\"sqlite3\"",
+					"-l\"z\"",
+					"-framework",
+					"\"Alamofire\"",
+					"-framework",
+					"\"AudioToolbox\"",
+					"-framework",
+					"\"AvFoundation\"",
+					"-framework",
+					"\"CoreMotion\"",
+					"-framework",
+					"\"CoreTelephony\"",
+					"-framework",
+					"\"Kingfisher\"",
+					"-framework",
+					"\"OpenGLES\"",
+					"-framework",
+					"\"PgySDK\"",
+					"-framework",
+					"\"PgyUpdate\"",
+					"-framework",
+					"\"SVProgressHUD\"",
+					"-framework",
+					"\"SecurityEnvSDK\"",
+					"-framework",
+					"\"SystemConfiguration\"",
+					"-framework",
+					"\"UMAnalytics\"",
+					"-framework",
+					"\"UMCommon\"",
+					"-framework",
+					"\"UMPush\"",
+					"-framework",
+					"\"UTDID\"",
+					"-framework",
+					"\"UserNotifications\"",
+					"-w",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.waykichain.waykichain;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Wayki/Config/Wayki-Bridging-Header.h";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BFC7414620CA5821008C3FF2 /* Build configuration list for PBXProject "Wayki" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFC7415B20CA5822008C3FF2 /* Debug */,
+				BFC7415C20CA5822008C3FF2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BFC7415D20CA5822008C3FF2 /* Build configuration list for PBXNativeTarget "Wayki" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFC7415E20CA5822008C3FF2 /* Debug */,
+				BFC7415F20CA5822008C3FF2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFC7414320CA5821008C3FF2 /* Project object */;
+}
