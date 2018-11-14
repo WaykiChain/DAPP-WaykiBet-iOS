@@ -1,4 +1,4 @@
-# 维基钱包DApp
+# 维基钱包DApp on iOS
 
 国内码云地址: https://gitee.com/wayki_ios/WaykiChain
 
