@@ -1,0 +1,216 @@
+/* 
+  Localizable.strings
+  WaykiApp
+
+  Created by louis on 2018/8/24.
+  Copyright © 2018年 WaykiChain. All rights reserved.
+*/
+
+"localLanguage" = "2";//系统语言
+
+//弹框
+"网络已关闭" = "The network is down";
+"请打开网络设置，确保设备联网" = "Please turn on the network settings to make sure your device is connected";
+"网络连接失败，请稍后再试" = "Network connection failed, please try again later";
+
+"设置" = "Settings";
+"取消" = "Cancel";
+"进入" = "Enter";
+
+"当前设备未导入钱包助记词，" = "The current device does not import wallet mnemonics.";
+"钱包内WICC需要导入钱包后方可使用" = "The WICC in the wallet needs to be imported into the wallet before use";
+"暂无数据" = "No data";
+"合约地址为空" = "Contract address is empty";
+
+"您还未创建或导入钱包，无法进行投注开庄等操作，" = "You have not created or imported a wallet, and you cannot perform betting and opening operations.";
+"首次创建或者导入成功即送100WTEST" = "Send 100WTEST when the first creation or the import is successful.";
+"创建钱包成功！系统将赠送 100 WTEST 作为新手奖励，区块确认中，请60秒后查看。" = "Create a wallet successfully! The system will give 100 WTEST as a novice reward. In the block confirmation, please check it after 60 seconds.";
+
+"导入原有钱包" = "Import wallet";
+"创建新钱包" = "Create wallet";
+"导出助记词" = "Export mnemonics";
+
+"扫一扫" = "Scan";
+"关闭" = "Close";
+"相册" = "Album";
+
+"首页" = "Home";
+"钱包" = "Wallet";
+"竞猜" = "Bet";
+"我" = "Me";
+"汇率：" = "Rate:";
+"余额" = "Balance";
+"锁仓" = "Lock";
+"管理钱包" = "Wallet management";
+
+"备份钱包" = "Backup wallet";
+"创建钱包" = "Create wallet";
+"导入钱包" = "Import wallet";
+"导出私钥" = "Export private key";
+"修改钱包密码" = "Change password";
+
+"兑换记录" = "Record";
+"客服微信号：" = "Customer service Wechat number:";
+"兑换汇率：" = "Exchange rate: ";
+"兑换时间：" = "Exchange time: ";
+"兑换成功" = "Exchange successfully";
+"兑换失败" = "Exchange failed";
+"等待确认" = "verifying";
+"矿工费：" = "Gas: ";
+"慢" = "Slow";
+"快" = "Fast";
+"确定兑换" = "Confirm";
+"兑换" = "Exchange";
+"消耗" = "Consume";
+
+"密码错误,请重新输入" = "Password Error";
+"请输入钱包密码" = "Enter password";
+"查看兑换记录" = "See records";
+"兑换中，请稍后" = "Being convertibility,Please try again later";
+"兑换失败，请稍后再试" = "The exchange failed. Please try again later";
+"每次只能兑换" = "Can only redeem at a time";
+"每次最少兑换 0.01 WICC" = "Minimum exchange of 0.01 WICC each time";
+
+"转账" = "Transfer";
+"可用额度： " = "Insufficient: ";
+"收款人钱包地址" = "Wallet Address";
+"转账金额" = "Transfer amount";
+"备注（选填）" = "Remark(optional)";
+"确定转账" = "Confirm";
+"请输入钱包地址" = "Please enter wallet address";
+"请输入转账金额" = "Please enter transferred amount";
+"转账金额不能为0" = "The amount of the transfer is not 0";
+"转账地址不能与本地地址相同" = "The departure and destination addresses can’t be the same";
+"请输入密码" = "Password";
+"当前余额不足" = "Insufficient balance";
+"收款地址无效" = "Address is invalid";
+"转账成功" = "Transfer successful";
+"转账失败，请重试" = "Failed";
+"收款地址" = "Address";
+"转出金额" = "Transfer amount";
+"钱包地址不正确" = "Wallet address is not correct";
+"最低转账金额为0.001" = "The minimum transfer amount is 0.001";
+"备注" = "Remark";
+"无" = "nothing";
+"确定" = "Confirm";
+"提示" = "Reminder";
+"尚未开启相机权限,您可以去设置中开启" = "Camera privileges have not yet been opened. You can go to the settings and open it";
+
+"收款码" = "Wallet Address";
+"设置金额" = "Set amount";
+"保存图片" = "Save the picture";
+"二维码保存失败！" = "Save failed！";
+"二维码已经保存！" = "Saved！";
+
+"复制地址" = "Copy";
+"获取WICC" = "Get WICC";
+"地址已复制！" = "Copied";
+"复制" = "Copy";
+"已复制" = "Copied";
+
+
+//MARK: - WalletCreate/Import
+"重要提示" = "Important reminder:";
+"密码用于保护私钥和交易授权，强度非常重要" = "Password strength is critical to guard your wallet";
+"WaykiChain不存储用户密码，无法提供找回或者重置密码功能，请务必牢记" = "We can't recover the password,please backup cautiously";
+"恭喜您，新钱包创建成功" = "The wallet was created successfully";
+"两次密码输入不一致" = "passwords are not the same";
+"请输入8~16位密码" = "Please enter 8~16 digits password";
+"再次输入您的钱包密码" = "Please enter your wallet password again";
+"我已认真阅读并同意" = "I agreed to";
+" 服务及隐私条款" = " Service ";
+"服务及隐私条款" = "Service";
+"导入成功" = "Import success";
+"请设置钱包密码（8～16位）" = "Password (8～16 digits)";
+"设置钱包密码（8～16位）" = "Password (8～16 digits)";
+"重复密码" = "Repeat password";
+"开始导入" = "Begin to import";
+"钱包导入成功" = "The wallet was successfully imported";
+"请阅读并同意 服务及隐私条款" = "Please read and agree to the terms of service and privacy";
+"请输入助记词" = "Please enter mnemonics ";
+"助记词 按空格分隔" = "mnemonics, separated by space";
+"请设置钱包密码（8～16位）" = "Password (8～16 digits)";
+"设置钱包密码（8～16位）" = "Password (8～16 digits)";
+"请输入正确格式的助记词" = "Please enter the mnemonic in the correct format";
+"请输入正确的助记词" = "Please enter the correct mnemonic";
+
+"创建钱包后将替换您现有的钱包，请确认您的钱包已做好助记词备份" = "Your existing wallet will be replaced after you create it. Make sure your wallet is backed up with mnemonic words";
+"导入新钱包后将替换您现有的钱包，请确认您的钱包已做好助记词备份" = "Your existing wallet will be replaced after the new wallet is imported. Please make sure your wallet is backed up with mnemonic words";
+"输入您的钱包密码查看助记词" = "Enter wallet password to view mnemonic words";
+"助记词用于回复钱包或重置钱包密码，请将它准确的抄写到纸上，并存放在只有您自己知道的安全地方" = "Mnemonic for replying to your wallet or resetting your wallet password, copy it exactly onto the paper and keep it in a safe place only you know";
+"已备份" = "Backed up";
+"警告" = "Warning";
+"私钥未加密，泄漏风险极大，请保存在安全的位置" = "The private key is not encrypted and the leakage risk is very high. Please keep it in a safe place";
+"已成功复制到剪贴板" = "Successfully copied to clipboard";
+
+"输入您的兑换金额" = "Enter your exchange amount";
+"保存成功" =  "Save success";
+"保存失败" =  "Save failed";
+"兑换金额不能为0" = "The exchange amount cannot be 0";
+"更新" = "Update";
+
+"激活中，请等待区块确认" = "During activation, please wait for block confirmation";
+"系统检测到您尚未激活钱包，请先激活" = "The system detects that you have not activated your wallet, please activate it first";
+"请先激活钱包" = "Please activate your wallet first";
+"激活" = "Activate";
+"账户余额不足，无法激活" = "Account balance is insufficient to activate";
+
+"立即激活" = "Activate";
+"激活钱包需要消耗0.0001WICC，激活钱包后可使用钱包内WICC" = "To activate the wallet, you need to consume 0.0001WICC. After activating the wallet, you can use the WICC in the wallet";
+"无法扫描到二维码，请重试" = "Could not scan the qr code, please try again";
+
+
+"备份完成" = "Backup completed";
+"使用助记词可以恢复您的钱包，请妥善保存，不要与他人分享助记词" = "Using mnemonics can restore your wallet. Please keep it properly. Don't share mnemonics with others";
+"助记词验证失败，请检查备份" = "mnemonics verification fails, please check backup";
+"确认钱包助记词" = "Verify wallet mnemonic";
+"请按顺序点击助记词，以确认你已备份" = "Please click on mnemonics in order to confirm that you have backed up";
+"请输入正确的助记词" = "Please enter the correct mnemonic";
+"请输入正确格式的助记词" = "Please enter the mnemonic in the correct format";
+"请输入正确的助记词" = "Please enter the correct mnemonic";
+"备份助记词" = "Backup mnemonics";
+"请抄下助记词" = "Please copy the mnemonics";
+"助记词用于恢复钱包或重置钱包密码，请将它准确的抄写到纸上，并存放在只有您自己知道的安全地方。" = "The mnemonic is used to restore the wallet or to reset the wallet password. Please copy it accurately onto paper and store it in a safe place where you only know it.";
+"特别提醒：" = "Special reminder: ";
+"助记词非常重要！不要丢失或泄漏，如果有人获取您的助记词将直接获取您的资产！" = "The mnemonics are very important! Do not lose or leak them. If someone gets your mnemonics, he/she will get your assets directly!";
+"确认" = "Confirm";
+"开始备份" = "Start backup";
+"（活动期间免矿工费）" = "(free of miner's fee during activities)";
+
+//交易记录
+"全部" = "All";
+"开庄" = "Build a bet";
+"投注" = "Place a bet";
+"最近交易记录" = "Recent transactions";
+"确认中" = "to be confirmed";
+"收款" = "Collection";
+"系统奖励" = "System reward";
+//交易详情
+"发款方" = "Payer";
+"收款方" = "Payee";
+"矿工费用" = "Miner fee";
+"交易哈希" = "Transaction hash";
+"交易类型" = "Transaction type";
+"交易时间" = "Date";
+"交易失败" = "Transaction failed";
+"交易成功" = "Transaction successful";
+
+//重置钱包密码
+"重置钱包密码" = "Reset password";
+"请输入原密码" = "Please enter the original password";
+"请输入新密码" = "Please enter a new password";
+"请输入新密码（8～16位）" = "Please enter a new password (8～16 digits)";
+"请重复输入新密码" = "Repeat new password";
+"请输入8~16位新密码" = "Please enter 8~16 digits new password";
+"原密码输入错误" = "The original password was entered in error";
+"修改成功" = "Change successfully";
+
+"立即备份" = "Backup now";
+"您还没有备份钱包助记词，请立即备份" = "You have not backed up your wallet mnemonic, please back up immediately";
+
+//guide
+"便捷的开庄工具人人可创建竞猜" = "Convenient open tools for everyone to create a bet";
+"更多的盘口、更高的赔率" = "More handicap, higher odds";
+"全部数据上链，公开、透明" = "All data is on the chain, open and transparent";
+
+
