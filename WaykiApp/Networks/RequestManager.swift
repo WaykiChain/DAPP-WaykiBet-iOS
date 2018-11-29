@@ -10,35 +10,35 @@ import UIKit
 
 enum HTTPPath:String {
     case 获取资产汇总_G = " "
-    case 版本检测升级_P = "/app/upgrade"
+    case 版本检测升级_P = ""
     //
-    case 查询底部菜单 = "/sys/tab/menu/list/2"
-    case 获取当前配置环境_G = "/sys/getEnvironmentType"
-    case 获取wicc链接_G = "/sys/link"
+    case 查询底部菜单 = ""
+    case 获取当前配置环境_G = ""
+    case 获取wicc链接_G = ""
     
-    case 获取汇率_G = "/sys/exchange/rate"
-    case 获取wtest汇率_G = "sys/exchange/WTEST/rate"
-    case 获取wusd汇率_G = "sys/exchange/WUSD/rate"
+    case 获取汇率_G = ""
+    case 获取wtest汇率_G = ""
+    case 获取wusd汇率_G = ""
     
-    case 获取账户信息_G = "/customer/account/getinfo"
-    case token兑换wicc手续费_G = "/sys/miner/fee"
-    case wicc兑换token_P = "/exchange/trans/wicc/token"
-    case token兑换wicc_P = "/exchange/trans/token/wicc"
-    case 获取兑换记录_P = "/exchange/exchangeOrders"
+    case 获取账户信息_G = ""
+    case token兑换wicc手续费_G = ""
+    case wicc兑换token_P = ""
+    case token兑换wicc_P = ""
+    case 获取兑换记录_P = ""
     
-    case 获取手机绑定钱包_P = "/customer/ref/wallet/info"
-    case 绑定钱包_P = "/customer/bind/wallet"
+    case 获取手机绑定钱包_P = ""
+    case 绑定钱包_P = ""
     
-    case 获取regid_G = "/address/isActive"
-    case 获取最新区块高度_G = "/chain/height"
+    case 获取regid_G = ""
+    case 获取最新区块高度_G = ""
     
-    case 转账和激活_P = "/exchange/trans/wicc"
-    case 获取合约地址_G = "/exchange/contract"
+    case 转账和激活_P = ""
+    case 获取合约地址_G = ""
     
-    case 获取交易记录_P = "/customer/account/log/logs"
-    case 获取交易详情_G = "/customer/account/log/detail"
+    case 获取交易记录_P = "s"
+    case 获取交易详情_G = ""
     
-    case 检查获取奖励_P = "/walletaddress/sys/reward/list"
+    case 检查获取奖励_P = ""
 
 }
 

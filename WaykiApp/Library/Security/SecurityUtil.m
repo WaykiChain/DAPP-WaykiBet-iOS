@@ -10,8 +10,8 @@
 #import "GTMBase64.h"
 #import "NSData+AES.h"
 
-#define Iv          @"0392039203920300" //偏移量,可自行修改
-#define KEY         @"7856412346543216" //key，可自行修改
+#define Iv          @"" //偏移量,可自行修改
+#define KEY         @"" //key，可自行修改
 
 @implementation SecurityUtil
 
